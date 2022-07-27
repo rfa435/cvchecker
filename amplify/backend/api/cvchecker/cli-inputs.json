@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "cvchecker",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\User\\Desktop\\capstoneaws\\mobile-scoring-cv-master\\amplify\\backend\\api\\cvchecker\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 30,
+      "apiKeyExpirationDate": "2022-08-13T03:01:31.428Z",
+      "keyDescription": "capstonetest"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": []
+  }
+}

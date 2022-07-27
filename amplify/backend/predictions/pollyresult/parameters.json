@@ -1,0 +1,14 @@
+{
+    "resourceName": "pollyresult",
+    "convertPolicyName": "speechGeneratorPolicye0a68ec9",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "convertType": "speechGenerator",
+    "language": "en-US",
+    "voice": "Joanna",
+    "access": "authAndGuest"
+}

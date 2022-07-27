@@ -1,0 +1,27 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cvchecker-staging-14201-authRole",
+      "UnauthRoleArn": "arn:aws:iam::393614527326:role/amplify-cvchecker-staging-14201-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::393614527326:role/amplify-cvchecker-staging-14201-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-cvchecker-staging-14201-deployment",
+      "UnauthRoleName": "amplify-cvchecker-staging-14201-unauthRole",
+      "StackName": "amplify-cvchecker-staging-14201",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:393614527326:stack/amplify-cvchecker-staging-14201/5423f4a0-ff28-11ec-8b1f-064f345f7ea6",
+      "AmplifyAppId": "d3ptkad3yq3mxv"
+    },
+    "categories": {
+      "auth": {
+        "cvchecker": {},
+        "true": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3ptkad3yq3mxv",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
