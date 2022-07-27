@@ -1,0 +1,74 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-backendcv-dev-192138-authRole",
+      "UnauthRoleArn": "arn:aws:iam::393614527326:role/amplify-backendcv-dev-192138-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::393614527326:role/amplify-backendcv-dev-192138-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-backendcv-dev-192138-deployment",
+      "UnauthRoleName": "amplify-backendcv-dev-192138-unauthRole",
+      "StackName": "amplify-backendcv-dev-192138",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:393614527326:stack/amplify-backendcv-dev-192138/aead74b0-ff81-11ec-afd8-06d2337c6f1c",
+      "AmplifyAppId": "d30lzqtq35svu1"
+    }
+  },
+  "auth": {
+    "backendcv5bdf7433": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-backendcv-dev-192138-deployment/amplify-cfn-templates/auth/backendcv5bdf7433-cloudformation-template.json",
+        "logicalId": "authbackendcv5bdf7433"
+      },
+      "lastPushTimeStamp": "2022-07-09T12:28:55.985Z",
+      "output": {
+        "UserPoolId": "ap-southeast-1_29mykooAX",
+        "AppClientIDWeb": "784f5ci5ilmoihpnhv611tfq71",
+        "AppClientID": "2fiol1jn0v472ceaoiofhp3tea",
+        "IdentityPoolId": "ap-southeast-1:f6e5e0c3-812a-4460-ac3b-6d1ea455d74f",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-1:393614527326:userpool/ap-southeast-1_29mykooAX",
+        "IdentityPoolName": "backendcv5bdf7433_identitypool_5bdf7433__dev",
+        "UserPoolName": "backendcv5bdf7433_userpool_5bdf7433"
+      },
+      "lastPushDirHash": "asGVhagwKyNpze841sMB4W1W8Bw="
+    }
+  },
+  "predictions": {
+    "textractcv": {
+      "providerPlugin": "awscloudformation",
+      "service": "RekognitionAndTextract",
+      "dependsOn": [],
+      "identifyType": "identifyText",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-backendcv-dev-192138-deployment/amplify-cfn-templates/predictions/textractcv-template.json",
+        "logicalId": "predictionstextractcv"
+      },
+      "lastPushTimeStamp": "2022-07-09T12:28:55.985Z",
+      "output": {
+        "format": "ALL",
+        "region": "ap-southeast-1"
+      },
+      "lastPushDirHash": "qQvR1ixuJBox2jv1+irwDqiACJ4="
+    }
+  }
+}
